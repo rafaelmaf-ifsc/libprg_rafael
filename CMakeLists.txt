@@ -3,4 +3,7 @@ project(libprg_trabalho C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(libprg_trabalho main.c)
+add_executable(libprg_trabalho main.c
+        lista.c
+        libprg_trabalho.h
+        pilha.c)
