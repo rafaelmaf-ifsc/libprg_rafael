@@ -1,9 +1,16 @@
-cmake_minimum_required(VERSION 3.31)
-project(libprg_trabalho C)
+cmake_minimum_required(VERSION 3.21)
 
-set(CMAKE_C_STANDARD 23)
+# Add header files here manually
+set(HEADERS
+        "${CMAKE_CURRENT_LIST_DIR}/src/include/libprg/libprg.h"
+)
 
-add_executable(libprg_trabalho
+# Add header files here manually
+set(HEADERS
+        "${CMAKE_CURRENT_LIST_DIR}/src/include/libprg/libprg.h"
+)
+
+add_library(libprg_trabalho
         src/libprg/lista.c
         src/include/libprg/libprg_trabalho.h
         src/libprg/pilha.c
